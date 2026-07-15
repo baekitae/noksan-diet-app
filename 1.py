@@ -71,7 +71,7 @@ def update_calories_to_sheet(sheet_name, student_name, calories):
 # ==========================================
 def analyze_diet_image(image):
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash') # 모델명 최신화
+        model = genai.GenerativeModel('gemini-3.5-flash') # 모델명 최신화
         prompt = (
             "당신은 초등학교 영양사 AI입니다. 급식 사진을 분석하여 총 섭취 칼로리를 유추하세요."
             "반드시 아래 JSON 포맷으로만 답변하세요: "
