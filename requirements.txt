@@ -5,5 +5,7 @@ pandas
 plotly
 opencv-python-headless
 mediapipe
-streamlit-webrtc
+numpy
 av
+streamlit-webrtc
+google-generativeai
